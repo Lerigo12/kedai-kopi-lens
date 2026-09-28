@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kedai Kopi Lens — kopi, minuman non-kopi, dan makanan.">
+    <title>Kedai Kopi Lens | Coffee & Good Moments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home">lens<span>.</span></a>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">Tentang</a>
+            <a href="#location">Lokasi</a>
+        </nav>
+        <a class="nav-cta" href="#menu">Lihat Menu ↗</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <span class="eyebrow">COFFEE • COMFORT • COMMUNITY</span>
+                <h1>Temukan jeda<br>di setiap <em>seruput.</em></h1>
+                <p>Tempat sederhana untuk kopi yang nikmat, obrolan hangat, dan momen yang ingin kamu ulangi.</p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#menu">Jelajahi Menu <span>↗</span></a>
+                    <a class="text-link" href="#location">Temukan lokasi ↓</a>
+                </div>
+                <div class="hero-note">
+                    <span class="dot"></span> Dibuat dengan hati, disajikan hangat.
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85" alt="Secangkir kopi di meja kedai">
+                <div class="floating-card">
+                    <span>✦</span>
+                    <div>
+                        <b>Your daily pause</b>
+                        <small>Good coffee, good mood.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section section" id="menu">
+            <div class="section-head">
+                <div>
+                    <span class="eyebrow">OUR MENU</span>
+                    <h2>Menu di Lens</h2>
+                    <p>Pilih teman terbaik untuk harimu.</p>
+                </div>
+                <div class="filters" role="group" aria-label="Filter kategori menu">
+                    <button class="filter active" data-filter="all">Semua</button>
+                    <button class="filter" data-filter="coffee">Coffee</button>
+                    <button class="filter" data-filter="non-coffee">Non Coffee</button>
+                    <button class="filter" data-filter="food">Makanan</button>
+                </div>
+            </div>
+
+            <div class="menu-grid">
+                <article class="menu-card" data-category="coffee">
+                    <img src="assets/image/kopi_susu_78.png" alt="Espresso" onerror="this.src='https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80'">
+                    <div class="card-body">
+                        <span class="category">COFFEE</span>
+                        <h3>Es Kopi Susu 78</h3>
+                        <p>Perpaduan antara kopi dan palm sugar organik</p>
+                        <b class="price">Rp19.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                        <div class="wrapper">
+                        <div class="card-footer">
+                        </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card" data-category="coffee">
+                    <img src="assets/image/caramel_machiato.png" alt="caramel macchiato">
+                    <div class="card-body">
+                        <span class="category">COFFEE</span>
+                        <h3>Caramel Macchiato</h3>
+                        <p>Perpaduan Kopi dengan gurih dan manis nya karamel di sentuh dengan kelembutan vanila</p>
+                        <b class="price">Rp.18.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card" data-category="coffee">
+                    <img src="assets/image/vanilalatte.png" alt="vanila latte">
+                    <div class="card-body">
+                        <span class="category">COFFEE</span>
+                        <h3>Vanilla Latte</h3>
+                        <p>Perpaduan Kopi dengan gurih dan manis nya vanila di sentuh dengan kelembutan susu</p>
+                        <b class="price">Rp.18.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card" data-category="coffee">
+                    <img src="assets/image/caramel.png" alt="caramel">
+                    <div class="card-body">
+                        <span class="category">COFFEE</span>
+                        <h3>Caramel</h3>
+                        <p>Perpaduan Kopi dan manis nya karamel di sentuh dengan kelembutan susu</p>
+                        <b class="price">Rp.18.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="menu-card" data-category="coffee">
+                    <img src="assets/image/butterscoth.png" alt="butterschoth">
+                    <div class="card-body">
+                        <span class="category">COFFEE</span>
+                        <h3>Butterscoth</h3>
+                        <p>Perpaduan espresso dan foam susu yang lembut.</p>
+                        <b class="price">Rp23.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card" data-category="non-coffee">
+                    <img src="assets/image/melonsquash.png" alt="Melon Squash">
+                    <div class="card-body">
+                        <span class="category">NON COFFEE</span>
+                        <h3>Melon Squash</h3>
+                        <p>minuman segar dingin yang terbuat dari campuran sirup melon (atau konsentrat buah melon) dan soda (atau air biasa), disajikan dengan es batu. </p>
+                        <b class="price">Rp11.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card" data-category="non-coffee">
+                    <img src="assets/image/bluelagon.png" alt="blue lagon">
+                    <div class="card-body">
+                        <span class="category">NON COFFEE</span>
+                        <h3>Blue Laggon</h3>
+                        <p>sirup dengan rasa jeruk sitrus yang unik, berasal dari kulit buah Laraha (jeruk pahit khas pulau Curaçao). </p>
+                        <b class="price">Rp11.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                </article>
+                <article class="menu-card" data-category="non-coffee">
+                    <img src="assets/image/strawbery.png" alt="strawberry">
+                    <div class="card-body">
+                        <span class="category">NON COFFEE</span>
+                        <h3>Strawberry</h3>
+                        <p>sirup dengan rasa stroberi yang manis, berasal dari buah stroberi segar. </p>
+                        <b class="price">Rp11.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card" data-category="non-coffee">
+                    <img src="assets/image/leecy.png" alt="leecy">
+                    <div class="card-body">
+                        <span class="category">NON COFFEE</span>
+                        <h3>Leci Squash</h3>
+                        <p>sirup dengan rasa leci yang segar, berasal dari buah leci segar. </p>
+                        <b class="price">Rp11.000</b>
+                        <div class="card-footer">
+                            <a href="LINK_SHOPEE_KAMU" class="pushable">
+                                <span class="front">shoppe food</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <p class="menu-disclaimer">*Nama menu dan harga di atas adalah contoh—silakan sesuaikan dengan menu Kedai Kopi Lens.</p>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=85" alt="Suasana kedai kopi">
+            </div>
+            <div>
+                <span class="eyebrow">A LITTLE ABOUT US</span>
+                <h2>Bukan cuma kopi.<br><em>Ini ruang untukmu.</em></h2>
+                <p>Lens hadir sebagai tempat untuk memperlambat langkah, bertemu teman, menyelesaikan pekerjaan, atau sekadar menikmati waktu sendiri.</p>
+                <a class="text-link" href="#location">Mampir ke Lens ↗</a>
+            </div>
+        </section>
+
+        <section class="location section" id="location">
+            <span class="eyebrow">COME FIND US</span>
+            <h2>Secangkir hangat<br>menunggumu.</h2>
+            <p>Temukan Kedai Kopi Lens dan mampir kapan saja.</p>
+            <div class="map-wrap">
+                <iframe title="Peta Kedai Kopi Lens" src="https://www.google.com/maps?q=Kopilen's&output=embed" loading="lazy" allowfullscreen></iframe>
+                <div class="map-label">
+                    <b>Kedai Kopi Lens</b>
+                    <span>Ganti pencarian peta dengan alamat asli kedai.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a class="brand" href="#home">lens<span>.</span></a>
+        <span>© <span id="year"></span> Kedai Kopi Lens. Dibuat untuk momen baik.</span>
+        <a href="#home">Kembali ke atas ↑</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

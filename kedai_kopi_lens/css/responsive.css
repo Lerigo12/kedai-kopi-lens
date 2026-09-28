@@ -1,0 +1,107 @@
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 35px;
+  }
+
+  .hero-visual {
+    max-width: 650px;
+  }
+
+  .hero-visual > img {
+    height: 420px;
+  }
+
+  .section-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    height: auto;
+    padding: 22px 5%;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .site-header nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 0.82rem;
+  }
+
+  .nav-cta {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+
+  .hero,
+  .section {
+    padding: 55px 5%;
+  }
+
+  .hero h1 {
+    font-size: 3.1rem;
+  }
+
+  .hero-visual > img {
+    height: 350px;
+  }
+
+  .floating-card {
+    left: 10px;
+  }
+
+  .section-head h2,
+  .about h2,
+  .location h2 {
+    font-size: 2.7rem;
+  }
+
+  .filters {
+    gap: 7px;
+  }
+
+  .filter {
+    padding: 10px 13px;
+    font-size: 0.8rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-card img {
+    height: 240px;
+  }
+
+  .about-image img {
+    height: 290px;
+  }
+
+  .map-wrap {
+    height: 320px;
+  }
+
+  footer {
+    padding: 25px 5%;
+    flex-direction: column;
+    text-align: center;
+  }
+}

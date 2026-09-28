@@ -1,0 +1,12 @@
+:root {
+  --cream: #f7f1e8;
+  --paper: #fffaf2;
+  --ink: #2e2119;
+  --muted: #7b6a5d;
+  --coffee: #825638;
+  --coffee-dark: #4a3022;
+  --line: #e6d9ca;
+  --serif: "Playfair Display", Georgia, serif;
+  --sans: "DM Sans", sans-serif;
+  --radius: 22px;
+}
